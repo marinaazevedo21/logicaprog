@@ -6,6 +6,12 @@ let alunos = ["Ana", "Bruno", "Carlos", "Diana"];
 //vetor com notas de alunos
 let notas = [8.5 , 3, 8, 10];
 
+
+//vetor com números
+let numeros = [6, 23, -7, 18, 4, 92, 15, 33, 0, 50];
+
+
+
 console.log(alunos); // exibe os dados do vetor todo
 console.log(alunos[3]); // Diana
 console.log(alunos[0]); // aparece a Ana, começa a partir do 0
@@ -60,3 +66,14 @@ console.log(alunos);
 //shift - remove do início do vetor
 alunos.shift();
 console.log(alunos);
+
+console.log( numeros);
+
+// ordem crescente
+numeros.sort( (a, b) => a - b );
+console.log(numeros);
+
+// ordem decresente
+numeros.sort( (a, b) => b - a);
+console.log(numeros);
+
